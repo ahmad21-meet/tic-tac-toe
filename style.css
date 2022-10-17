@@ -1,0 +1,101 @@
+body{
+	background-color: aqua;
+}
+	h1 {
+		color: orangered;
+		font-size: 45px;
+	}
+
+	/* 3*3 Grid */
+	#b1, #b2, #b3, #b4, #b5,
+	#b6, #b7, #b8, #b9 {
+		width: 102px;
+		height: 52px;
+		margin: auto;
+		border: 5px solid gray;
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+	}
+
+	/* Reset Button */
+	#but {
+		box-sizing: border-box;
+		width: 95px;
+		height: 40px;
+		border: 1px solid dodgerblue;
+		margin: auto;
+		border-radius: 4px;
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		background-color: dodgerblue;
+		color: white;
+		font-size: 20px;
+		cursor: pointer;
+	}
+
+	/* Player turn space */
+	#print {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		color: dodgerblue;
+		font-size: 20px;
+	}
+
+	/* Main Container */
+	#main {
+		text-align: center;
+	}
+
+	/* Game Instruction Text */
+	#ins {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+			
+		color: dodgerblue;
+		font-size: 17px;
+	}
+
+	
+
+	
+	#count_up_timer{
+		font-size: 100px;
+		font-weight: bold;
+		color: darkblue;
+	}
+	#stop_count_up_timer{
+		background-color:black;
+		color:rgb(255, 255, 255)
+	}
+	.scores{
+		width: 350px;
+		height: 85px;
+		display: flex;
+		margin-bottom: 5px;
+		align-items: center;
+	 }
+	 .scor{
+		font-size: 42px;
+		align-items: center;
+	 }
+
+	 .scor{
+		font-size: 32px;
+	 }
+	 .box{
+		width: calc(100%/3);
+		height: 100%;
+		color: rgb(31, 122, 202);
+		font-size: 25px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	 }
+	 .cont{
+		align-items: center;
+		margin-left: 480px;
+	 }
